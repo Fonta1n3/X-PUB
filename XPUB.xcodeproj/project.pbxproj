@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88568584E0EE5EAE409C391F /* libPods-XPUB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56022BECEA1C171CD97594F9 /* libPods-XPUB.a */; };
+		D0756A55221D7F2E004EFD6E /* watermark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0756A54221D7F2E004EFD6E /* watermark.jpg */; };
+		D0756A57221D8578004EFD6E /* BC_Logo_.png in Resources */ = {isa = PBXBuildFile; fileRef = D0756A56221D8578004EFD6E /* BC_Logo_.png */; };
+		D0756A59221D8D2D004EFD6E /* bWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D0756A58221D8D2D004EFD6E /* bWhite.png */; };
+		D0756A5B221EEB4E004EFD6E /* whiteQR.png in Resources */ = {isa = PBXBuildFile; fileRef = D0756A5A221EEB4E004EFD6E /* whiteQR.png */; };
+		D0756A5D221F95EA004EFD6E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0756A5C221F95EA004EFD6E /* InfoViewController.swift */; };
 		D0976BF6221978B2009531DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0976BF5221978B2009531DD /* AppDelegate.swift */; };
 		D0976BF8221978B2009531DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0976BF7221978B2009531DD /* ViewController.swift */; };
 		D0976BFB221978B2009531DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0976BF9221978B2009531DD /* Main.storyboard */; };
 		D0976BFE221978B3009531DD /* XPUB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0976BFC221978B3009531DD /* XPUB.xcdatamodeld */; };
 		D0976C00221978B5009531DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0976BFF221978B5009531DD /* Assets.xcassets */; };
 		D0976C03221978B5009531DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0976C01221978B5009531DD /* LaunchScreen.storyboard */; };
+		D0976C0D22197992009531DD /* ObjectiveCHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0976C0C22197992009531DD /* ObjectiveCHeader.m */; };
+		D0976C0F22197FAB009531DD /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0976C0E22197FAB009531DD /* QRCodeScannerViewController.swift */; };
+		D0976C1122198767009531DD /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0976C1022198767009531DD /* backButton.png */; };
+		D0976C1422198C34009531DD /* AES256CBC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0976C1222198C34009531DD /* AES256CBC.framework */; };
+		D0976C1522198C34009531DD /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0976C1322198C34009531DD /* SwiftKeychainWrapper.framework */; };
+		D0976C182219931C009531DD /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0976C172219931C009531DD /* HomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20585EE636944868C85D1893 /* Pods-XPUB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPUB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XPUB/Pods-XPUB.debug.xcconfig"; sourceTree = "<group>"; };
+		56022BECEA1C171CD97594F9 /* libPods-XPUB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XPUB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0756A54221D7F2E004EFD6E /* watermark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watermark.jpg; sourceTree = "<group>"; };
+		D0756A56221D8578004EFD6E /* BC_Logo_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BC_Logo_.png; sourceTree = "<group>"; };
+		D0756A58221D8D2D004EFD6E /* bWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bWhite.png; sourceTree = "<group>"; };
+		D0756A5A221EEB4E004EFD6E /* whiteQR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteQR.png; sourceTree = "<group>"; };
+		D0756A5C221F95EA004EFD6E /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		D0976BF2221978B2009531DD /* XPUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0976BF5221978B2009531DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0976BF7221978B2009531DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +43,14 @@
 		D0976BFF221978B5009531DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0976C02221978B5009531DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0976C04221978B5009531DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0976C0B22197992009531DD /* XPUB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPUB-Bridging-Header.h"; sourceTree = "<group>"; };
+		D0976C0C22197992009531DD /* ObjectiveCHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCHeader.m; sourceTree = "<group>"; };
+		D0976C0E22197FAB009531DD /* QRCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		D0976C1022198767009531DD /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		D0976C1222198C34009531DD /* AES256CBC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AES256CBC.framework; path = Carthage/Build/iOS/AES256CBC.framework; sourceTree = "<group>"; };
+		D0976C1322198C34009531DD /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
+		D0976C172219931C009531DD /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		E6290704FA5698E9EADB023F /* Pods-XPUB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPUB.release.xcconfig"; path = "Pods/Target Support Files/Pods-XPUB/Pods-XPUB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +58,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88568584E0EE5EAE409C391F /* libPods-XPUB.a in Frameworks */,
+				D0976C1422198C34009531DD /* AES256CBC.framework in Frameworks */,
+				D0976C1522198C34009531DD /* SwiftKeychainWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2984AFC0DAD1038A76AB4A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0976C1222198C34009531DD /* AES256CBC.framework */,
+				D0976C1322198C34009531DD /* SwiftKeychainWrapper.framework */,
+				56022BECEA1C171CD97594F9 /* libPods-XPUB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B763DB08FAAD5410E35464F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20585EE636944868C85D1893 /* Pods-XPUB.debug.xcconfig */,
+				E6290704FA5698E9EADB023F /* Pods-XPUB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D0976BE9221978B2009531DD = {
 			isa = PBXGroup;
 			children = (
 				D0976BF4221978B2009531DD /* XPUB */,
 				D0976BF3221978B2009531DD /* Products */,
+				D0976C0B22197992009531DD /* XPUB-Bridging-Header.h */,
+				D0976C0C22197992009531DD /* ObjectiveCHeader.m */,
+				7B763DB08FAAD5410E35464F /* Pods */,
+				2984AFC0DAD1038A76AB4A3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +109,19 @@
 		D0976BF4221978B2009531DD /* XPUB */ = {
 			isa = PBXGroup;
 			children = (
+				D0976C172219931C009531DD /* HomeScreenViewController.swift */,
 				D0976BF5221978B2009531DD /* AppDelegate.swift */,
 				D0976BF7221978B2009531DD /* ViewController.swift */,
+				D0976C0E22197FAB009531DD /* QRCodeScannerViewController.swift */,
+				D0756A54221D7F2E004EFD6E /* watermark.jpg */,
+				D0756A58221D8D2D004EFD6E /* bWhite.png */,
+				D0756A56221D8578004EFD6E /* BC_Logo_.png */,
 				D0976BF9221978B2009531DD /* Main.storyboard */,
+				D0756A5C221F95EA004EFD6E /* InfoViewController.swift */,
 				D0976BFF221978B5009531DD /* Assets.xcassets */,
 				D0976C01221978B5009531DD /* LaunchScreen.storyboard */,
+				D0976C1022198767009531DD /* backButton.png */,
+				D0756A5A221EEB4E004EFD6E /* whiteQR.png */,
 				D0976C04221978B5009531DD /* Info.plist */,
 				D0976BFC221978B3009531DD /* XPUB.xcdatamodeld */,
 			);
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0976C07221978B5009531DD /* Build configuration list for PBXNativeTarget "XPUB" */;
 			buildPhases = (
+				70089F33A47A4A5EFFE4D386 /* [CP] Check Pods Manifest.lock */,
 				D0976BEE221978B2009531DD /* Sources */,
 				D0976BEF221978B2009531DD /* Frameworks */,
 				D0976BF0221978B2009531DD /* Resources */,
+				D0976C1622198C41009531DD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -99,6 +162,7 @@
 				TargetAttributes = {
 					D0976BF1221978B2009531DD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -126,21 +190,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0976C03221978B5009531DD /* LaunchScreen.storyboard in Resources */,
+				D0756A59221D8D2D004EFD6E /* bWhite.png in Resources */,
+				D0756A5B221EEB4E004EFD6E /* whiteQR.png in Resources */,
+				D0756A57221D8578004EFD6E /* BC_Logo_.png in Resources */,
 				D0976C00221978B5009531DD /* Assets.xcassets in Resources */,
+				D0976C1122198767009531DD /* backButton.png in Resources */,
+				D0756A55221D7F2E004EFD6E /* watermark.jpg in Resources */,
 				D0976BFB221978B2009531DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70089F33A47A4A5EFFE4D386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XPUB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0976C1622198C41009531DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AES256CBC.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftKeychainWrapper.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0976BEE221978B2009531DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0976C0D22197992009531DD /* ObjectiveCHeader.m in Sources */,
 				D0976BF8221978B2009531DD /* ViewController.swift in Sources */,
+				D0976C0F22197FAB009531DD /* QRCodeScannerViewController.swift in Sources */,
+				D0756A5D221F95EA004EFD6E /* InfoViewController.swift in Sources */,
 				D0976BFE221978B3009531DD /* XPUB.xcdatamodeld in Sources */,
 				D0976BF6221978B2009531DD /* AppDelegate.swift in Sources */,
+				D0976C182219931C009531DD /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,37 +397,57 @@
 		};
 		D0976C08221978B5009531DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20585EE636944868C85D1893 /* Pods-XPUB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S9W9BN93GG;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69FR345CDA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = XPUB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fontaine.XPUB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = XPUBDevelopment2019;
+				SWIFT_OBJC_BRIDGING_HEADER = "XPUB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D0976C09221978B5009531DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6290704FA5698E9EADB023F /* Pods-XPUB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S9W9BN93GG;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69FR345CDA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = XPUB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fontaine.XPUB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = XPUBDistribution2019;
+				SWIFT_OBJC_BRIDGING_HEADER = "XPUB-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
